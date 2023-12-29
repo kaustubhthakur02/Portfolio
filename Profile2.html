@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <style>
+    body{
+        color: white;
+        background-color: black;
+    }
+    .name > h2 {
+        font-size: 35px;
+      font-family:'Rubik Doodle Shadow',sans-serif;
+    }
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+    .list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: space-between;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+
+    .list-item a {
+        color: white;
+    margin-right: 60px;
+    text-decoration: none; 
+    }
+    .name{
+        margin-left: 50px;
+    }
+
+    .photo img{
+        display: inline-flex;
+        margin-left: 50%;
+        margin-bottom: 25px;
+        object-fit: cover;
+        width: 250px;
+        height: 350px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px #ed4040;
+        
+} 
+    
+    .middle{
+        margin-left:28px;
+        margin-top: 50px;
+    }
+    .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    }
+
+    .middle {
+        order: 1;
+        margin-left: 25px;
+    }
+
+    .photo {
+        order: 2;
+    }
+
+    .middle > h2{
+        font-size: 50px;
+    }
+    
+    .middle > button{
+        background-color: red;
+        color: rgb(253, 251, 251);
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .container p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="name">
+        <h2>Kaustubh  <span style="color: red;">Thakur</span></h2>
+        </div>
+        <div class="list">
+            <div class="list-item"><a href="https://www.linkedin.com/in/kaustubh-thakur-66aa48297/" target="_blank">Home</a></div> 
+            <div class="list-item"><a href="https://www.linkedin.com/in/kaustubh-thakur-66aa48297/" target="_blank">About</a></div>
+            <div class="list-item"><a href="https://www.linkedin.com/in/kaustubh-thakur-66aa48297/" target="_blank">Projects</a></div>
+            <div class="list-item"><a href="https://www.linkedin.com/in/kaustubh-thakur-66aa48297/" target="_blank">Contact</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="middle">
+            <h2><span style="text-decoration: overline; text-decoration-color: red;">I'm</span> Kaustubh</h2>
+            <p>Full Stack Web Developer </p><br><br>
+            <button> HIRE ME</button>
+        </div>
+        <div class="photo">
+            <img src="./peakpx (1).jpg" alt="batman">
+        </div>
+    </div>
+</body>
+</html>
